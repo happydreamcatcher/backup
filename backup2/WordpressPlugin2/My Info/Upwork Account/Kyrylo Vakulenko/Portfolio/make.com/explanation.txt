@@ -1,0 +1,15 @@
+Title: Workflow Automation using make.com
+
+content:
+Slack-triggered data processing workflow:
+
+1. Trigger from Slack – maybe a command, message, or reaction.
+
+2. Retrieve rows from Google Sheets – probably multiple sheets or tabs.
+
+3. Data cleaning & transformation – applying tools to normalize or extract specific fields.
+
+4. Store results – write back to Google Sheets, possibly different sheets for each branch.
+
+5. Send email – a final report, summary, or notification email.
+

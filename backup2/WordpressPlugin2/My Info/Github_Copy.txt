@@ -1,0 +1,27 @@
+   git checkout -b main
+
+git filter-branch --env-filter '
+NEW_NAME="Kyrylo"
+NEW_EMAIL="techguy0717@gmail.com"
+
+if [ "$GIT_COMMITTER_EMAIL" != "$NEW_EMAIL" ]
+then
+    export GIT_COMMITTER_NAME="$NEW_NAME"
+    export GIT_COMMITTER_EMAIL="$NEW_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" != "$NEW_EMAIL" ]
+then
+    export GIT_AUTHOR_NAME="$NEW_NAME"
+    export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+
+git add .
+
+git remote remove origin
+
+git commit -m " "
+
+git remote add origin https://github.com/techguy0717/wordpress_theme1.git
+
+git push -u origin main

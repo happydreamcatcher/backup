@@ -1,0 +1,32 @@
+Hello!
+I am Stefan, a seasoned full-stack developer with +8 years of extensive experience of web development who has deep understanding and proven record of web development.
+Also, I am a skillful automation specialist with a passion for transforming complex processes into seamless, efficient workflows.
+
+As a seasoned Full-stack developer, Core Expertise is following:
+✅ Frontend Development: Expertise in React.js, Vue.js, and Next.js to build dynamic, responsive, and interactive user interfaces.
+✅ Backend Development: Proficient in Node.js, Express.js, Restful API for creating robust, scalable server-side   
+    applications with optimized database interactions.
+✅ Frameworks & Library: React.js, Vue.js, Laravel, Django, Ruby on Rails
+✅ Programming Languages: JavaScript, PHP, python,ruby
+
+✅ CMS and E-Commerce: Custom WordPress, Shopify, Webflow and wix development, including theme customization, 
+    plugin development, and API integrations.
+
+As a skillful automation specialist, I offer the following services for my clients.
+✅ Building Make.com(formerly Integromat), Zapier, n8n automation scenarios
+✅ CRM Automation (Hubspot, Zoho, GoHighLevel, Monday.com, Clickup, AirTable)
+✅ Custom API integrations (app connectors) development for Make.com and Zapier
+✅ OpenAI (ChatGPT, Assistants API) automation building using Make, Zapier
+✅ Setting custom HTTP API calls modules in Make (formerly Integromat), Zapier
+✅ Moving client automation between Zapier - Make
+✅ Scenarios bug fixing, improvements and optimization
+✅ Reducing scenarios running costs by optimizing overall flow and approach
+✅ Support and maintain existing integrations
+
+💪 I am here for my clients
+    Before all my skills, my first strength is that I always try to understand what my clients want and how I    
+    could let my cliets be satisfied with my result.
+
+🤝 𝐋𝐞𝐭’𝐬 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐞!
+If you are looking for a reliable and skillful Full-Stack developer or Automation specialist to turn your ideas into reality, I am always ready to bring my expertise to your project.
+Let's connect and discuss how I can contribute to your project together! 

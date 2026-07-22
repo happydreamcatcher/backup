@@ -1,0 +1,11 @@
+Automation using Zapier  - Account Mapping
+
+content:
+Account Mapping automation: Gsheets to Salesforce to Gsheets
+
+Automated process of aligning AWS and PANW reps on accounts with extracting internal info from Salesforce to share with AWS reps. The process would take ~1-2 mins per account, now immediately extracts the data
+
+Spoke to Zapier to develop a 'fuzzy search' feature to be able to search 'similar' instead of 'exact match' queries
+
+Skills:
+Zapier, System Automation, Google sheets, Automation Salesforce

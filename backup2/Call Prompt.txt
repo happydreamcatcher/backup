@@ -1,0 +1,44 @@
+- For initial interview
+Open free ChatGPT, Copy job description, press enter and wait, Copy resume (do not upload, manually copy) press enter and wait, and then copy the following prompt
+"I have to do an initial screening with interviewer.
+I'll copy what interviewer says and please give me response in a concise way. That being said, do not use cliche, common words and phrases. Do not add additional explanation and bullet points. When asking about past experiences, give me real relevant projects based on the companies on the resume. Make responses unique and specific, not generic and not wheeze. And do not copy dummy phrases and stats from resume.
+    6-7 sentences in general but may vary depending on situation. do not say I dont have that experience - reply yes for all but based on ACTUAL projects in the company in the resume(do not make up the projects tailored to JD, First, find a relevant project at resume. If not, do actual web research based on companies in the resume)
+    (use natural everyday language and very very conversational and cheerful, use asian tone (but still native american), and make it really light and cheerful. make sentences natural not the relative clauses but rather simple sentences which is easy to follow and make the interviewer feel engaged.)
+when the interviewer is just explaining about the company, and the product, just give a short feedback on that. when interviewer is asking questions about experience, then just follow above instructions. but when interviewer asks the general understanding or general approach, then just use present form without past experience. (ex"I normally do ...  or I'd do ...")
+some feeds:
+    - why new role: be creative and make it specific to the recent role and new role I applied for...
+    - be ready for specific org name, depart name and team name at previous companies and projects"
+========================================
+And then just copy what interviewer says and go from there! Good luck!
+
+
+- Technical interview prompt:
+I have to do a technical deepdive with interviewer.
+I'll copy what interviewer says and please give me response in a concise way. That being said, do not use cliche, common words and phrases. Do not add additional explanation and bullet points. When asking about past experiences, give me real relevant projects based on the companies on the resume. Make responses unique and specific, not generic and wheeze. And do not copy dummy phrases and stats from resume.
+    6-7 sentences in general but may vary depending on situation. do not say I dont have that experience - reply yes for all but based on ACTUAL projects at the company in the resume(do not make up the projects tailored to JD, First, find a relevant project at resume. If not, do actual web research based on companies in the resume)
+    (use natural everyday language and very very conversational and cheerful, use asian tone (but still native american), and make it really light and cheerful. make sentences natural not the relative clauses but rather simple sentences which is easy to follow and make the interviewer feel engaged.)
+when the interviewer is just explaining about the company, and the product, just give a short feedback on that. when interviewer is asking questions about experience, then just follow above instructions. but when interviewer asks the general understanding or general approach, then just use present form without past experience. (ex"I normally do ...  or I'd do ...")
+caution: be very conversational and specific. do not follow stereotype interview answer pattern, be natural and conversational but backed with details rather than generic explanations - that's the point.
+Also, do not repeat what interviewer asked. just go direct to answer - specific situation or detailed solution
+some feeds:
+    - why new role: (be creative here)
+    - be ready for specific org name, depart name and team name, structure at  previous companies
+
+
+- Live coding prompt
+1. I want to do live coding interview.
+I'll copy the problem by screenshots and also copy instructions (what instructor says).
+Please give me 1 question about the problem to clarrify some ambiguous parts. I'll copy what interviewer answers.
+ And then give me generic plan in extremely conversational tone - avoid beating around the bush and stick to the point, use conversational language and use simple sentences. you don't need to be perfect but come up with the working solution at least.
+2. now after that, we will do this.
+And then give me the whole working code snipet.
+and then Starting from line one, A line of code (or just small block if its 2 or 3 related lines) and then explanation why that code in simple conversational language and it should be going as I type each word or chunk (for example, "umm, if the i is equal to 3, then just break, i mean for reduce some time"). so it will go like the line or block of code, explanation, line or tiny block of code explanation until the end.
+3. If the interview asks for extra requirements, just come up with minimum change of code. and just give the original code part (where changes are happening), respective changed code, and brief explanation like above. and then intervier asks follow-up questions again and again so you know, repeat same thing.
+and go line by line for corrected part explanation.
+Caution: remove extra explanations and formatting  like bullet points or listing. just give me code in code box and explanations in plain text, noting else distracting and taking the screen. just give me code wrapped up within the code box, with no horizontal slider but make them clear so that I dont get confused.
+ 
+- system design prompt
+I have to do software system design interview. I'll just copy what interviewer says, and possibly screenshot of the problem itself.
+Please first, give me 2 or 3 questions to ask for clarifying the problem. I'll just copy the answers to those questions too.
+Then please give me diagram (text format with underscores and you know right?) and explanation. in each diagram element, there should be service name and then the actual tools (Framework name or Clound service or whatever name). and then give me explanation why I chose that structure, the service and specifically the tools. I mean justify my decision.
+And please, dont spam the followup answers too long with lists and bullet points. just give me concise conversational answers in a very natural tone less than 10 sentences, and remember - make the text diagram very specific to the problem and very practical which addresses all edge cases in the problem (edited) 
