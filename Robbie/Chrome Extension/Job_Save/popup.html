@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Job Saver</h1>
+      <span id="count" class="count"></span>
+    </header>
+
+    <main>
+      <form id="job-form" autocomplete="off">
+        <label class="field">
+          <span>#</span>
+          <input id="f-number" type="number" min="1" step="1" inputmode="numeric" />
+        </label>
+        <label class="field">
+          <span>Date</span>
+          <input id="f-date" type="date" title="Carried over to the next job until you change it" />
+        </label>
+        <label class="field">
+          <span>Position</span>
+          <input id="f-title" type="text" placeholder="Detecting…" />
+        </label>
+        <label class="field">
+          <span>Company</span>
+          <input id="f-company" type="text" placeholder="Detecting…" />
+        </label>
+        <label class="field">
+          <span>Salary</span>
+          <input id="f-salary" type="text" placeholder="(none found — optional)" />
+        </label>
+        <label class="field">
+          <span>Link</span>
+          <input id="f-link" type="text" placeholder="Detecting…" />
+        </label>
+
+        <div class="actions">
+          <button type="submit" id="save" class="primary">Save job</button>
+          <button type="button" id="redetect" class="ghost" title="Re-read the page">↻</button>
+        </div>
+        <div id="msg" class="msg"></div>
+      </form>
+
+      <section class="saved">
+        <div class="saved-head">
+          <h2>Saved</h2>
+          <div class="saved-tools">
+            <button type="button" id="export" class="ghost">Export CSV</button>
+            <button type="button" id="clear" class="ghost danger">Clear all</button>
+          </div>
+        </div>
+        <div id="list" class="list"></div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

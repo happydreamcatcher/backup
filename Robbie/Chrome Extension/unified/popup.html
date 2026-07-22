@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Job Qualifier + Saver</h1>
+    </header>
+
+    <main>
+      <!-- ── Applied-status banner (always shown when a company is found) ─ -->
+      <div id="applied-status" class="applied-status" hidden></div>
+
+      <!-- ── Qualifier verdict (top) ──────────────────────────────────── -->
+      <section id="verdict">
+        <div id="content"><div class="loading">Checking this page…</div></div>
+        <div id="verdict-foot" class="vfoot"></div>
+      </section>
+
+      <!-- ── Job Saver (always shown, below the verdict) ──────────────── -->
+      <section class="saver">
+        <div class="saver-head">
+          <h2>Save this job</h2>
+          <span id="count" class="count"></span>
+        </div>
+
+        <form id="job-form" autocomplete="off">
+          <label class="field">
+            <span>#</span>
+            <input id="f-number" type="number" min="1" step="1" inputmode="numeric" />
+          </label>
+          <label class="field">
+            <span>Date</span>
+            <input id="f-date" type="date" title="Carried over to the next job until you change it" />
+          </label>
+          <label class="field">
+            <span>Position</span>
+            <input id="f-title" type="text" placeholder="Detecting…" />
+          </label>
+          <label class="field">
+            <span>Company</span>
+            <input id="f-company" type="text" placeholder="Detecting…" />
+          </label>
+          <div id="dup-warn" class="dup-warn" hidden></div>
+          <label class="field">
+            <span>Salary</span>
+            <input id="f-salary" type="text" placeholder="(none found — optional)" />
+          </label>
+          <label class="field">
+            <span>Link</span>
+            <input id="f-link" type="text" placeholder="Detecting…" />
+          </label>
+
+          <div class="actions">
+            <button type="submit" id="save" class="primary">Save job</button>
+            <button type="button" id="redetect" class="ghost" title="Re-read the page">↻</button>
+          </div>
+          <div id="msg" class="msg"></div>
+        </form>
+
+        <section class="saved">
+          <div class="saved-head">
+            <h2>Saved today</h2>
+            <div class="saved-tools">
+              <button type="button" id="export" class="ghost">Export CSV</button>
+              <button type="button" id="clear" class="ghost danger">Clear all</button>
+            </div>
+          </div>
+          <div id="list" class="list"></div>
+        </section>
+
+        <section class="ledger">
+          <div class="saved-head">
+            <h2>Applied companies · all-time</h2>
+            <span id="ledger-count" class="count"></span>
+          </div>
+          <p class="ledger-note">
+            Permanent duplicate-block list. <strong>Not</strong> cleared by “Clear all”
+            — it keeps every company you’ve ever applied to, so old jobs still flag red.
+          </p>
+          <div class="saved-tools">
+            <button type="button" id="import-companies" class="ghost">Import companies…</button>
+            <button type="button" id="export-companies" class="ghost">Export companies</button>
+            <button type="button" id="reset-applied" class="ghost danger">Reset history</button>
+          </div>
+          <input id="import-file" type="file" accept=".csv,text/csv" hidden />
+        </section>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

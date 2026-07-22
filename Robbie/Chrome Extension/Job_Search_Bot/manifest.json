@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Jobright Auto Apply Clicker",
+  "version": "1.0",
+  "description": "Clicks Apply on Jobright job cards, opens each job in a new tab, and confirms 'Yes, I applied'. Runs on a timer with a manual stop.",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://jobright.ai/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://jobright.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
